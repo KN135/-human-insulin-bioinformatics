@@ -163,18 +163,23 @@ human-insulin-bioinformatics/
 
 The project uses the following Python libraries:
 
+```text
 biopython==1.81
 pandas==1.3.5
 matplotlib==3.2.2
+```
 
 Install the dependencies using:
 
+```bash
 pip install biopython==1.81 pandas==1.3.5 matplotlib==3.2.2
+```
 
-▶️ Running the Project
+## ▶️ Running the Project
 
 Run the scripts in the following sequence from the project directory:
 
+```bash
 python scripts/01_insulin_sequence_analysis.py
 
 python scripts/02_insulin_protein_analysis.py
@@ -182,85 +187,64 @@ python scripts/02_insulin_protein_analysis.py
 python scripts/03_insulin_protein_properties.py
 
 python scripts/04_insulin_structure_analysis.py
+```
 
-Ensure the required input files are placed in data/raw/ before running the relevant scripts.
+Ensure the required input files are placed in `data/raw/` before running the relevant scripts.
 
-📊 Key Results and Deliverables
+## 📊 Key Results and Deliverables
 
 This project produces:
 
-Nucleotide composition analysis.
+- Nucleotide composition analysis.
+- GC content calculation.
+- Translated insulin precursor FASTA sequence.
+- Amino acid composition dataset.
+- Protein physicochemical property calculations.
+- Protein chain and atom-count analysis.
+- Scientific visualization images.
+- Automated text reports and CSV result files.
 
-GC content calculation.
+## 🧠 Scientific Interpretation and Limitations
 
-Translated insulin precursor FASTA sequence.
+- The 110-amino-acid sequence represents the insulin precursor rather than mature insulin alone.
+- The structural analysis describes the chains and atoms present in the downloaded PDB model.
+- Sequence and structural residue counts are not directly equivalent because the biological forms and processing stages differ.
+- Physicochemical properties are computational predictions and should not be interpreted as experimental measurements.
+- Structural analysis using Biopython parses atomic coordinates but does not itself perform experimental structure determination.
 
-Amino acid composition dataset.
+## 📚 Data Sources
 
-Protein physicochemical property calculations.
+- **NCBI RefSeq:** Human insulin reference transcript, `NM_000207.3`
+- **RCSB Protein Data Bank:** Human insulin structural entry, `4EXX`
 
-Protein chain and atom-count analysis.
+## 🚀 Skills Demonstrated
 
-Scientific visualization images.
+- Biological sequence analysis
+- DNA/RNA nucleotide composition
+- Coding sequence extraction and translation
+- Protein sequence analysis
+- Physicochemical property prediction
+- Protein structure data parsing
+- Python programming
+- Data visualization
+- Scientific reporting
+- Bioinformatics workflow development
 
-Automated text reports and CSV result files.
+## 🔭 Future Improvements
 
-🧠 Scientific Interpretation and Limitations
+- Protein sequence alignment and comparison.
+- Identification and analysis of conserved regions.
+- Disulfide bond analysis.
+- Additional protein structural measurements.
+- Interactive molecular visualization.
+- Automated integration of sequence and structural analysis.
 
-The 110-amino-acid sequence represents the insulin precursor rather than mature insulin alone.
-
-The structural analysis describes the chains and atoms present in the downloaded PDB model.
-
-Sequence and structural residue counts are not directly equivalent because the biological forms and processing stages differ.
-
-Physicochemical properties are computational predictions and should not be interpreted as experimental measurements.
-
-Structural analysis using Biopython parses atomic coordinates but does not itself perform experimental structure determination.
-
-📚 Data Sources
-
-NCBI RefSeq: Human insulin reference transcript, NM_000207.3
-
-RCSB Protein Data Bank: Human insulin structural entry, 4EXX
-
-🚀 Skills Demonstrated
-
-Biological sequence analysis
-
-DNA/RNA nucleotide composition
-
-Coding sequence extraction and translation
-
-Protein sequence analysis
-
-Physicochemical property prediction
-
-Protein structure data parsing
-
-Python programming
-
-Data visualization
-
-Scientific reporting
-
-Bioinformatics workflow development
-
-🔭 Future Improvements
-
-Protein sequence alignment and comparison.
-
-Identification and analysis of conserved regions.
-
-Disulfide bond analysis.
-
-Additional protein structural measurements.
-
-Interactive molecular visualization.
-
-Automated integration of sequence and structural analysis.
-
-👨‍🔬 Author
-K.Nissi
-Bioinformatics & Biotechnology Enthusiast
+## 👨‍🔬 Author
+    K.Nissi
+**Bioinformatics & Biotechnology Enthusiast**
 
 This project was developed as a practical learning and portfolio project to demonstrate computational approaches to biological sequence and protein structure analysis.
+
+---
+
+*Exploring biology through computational science.* 🧬
