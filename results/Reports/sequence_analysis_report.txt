@@ -1,1 +1,16 @@
+HUMAN INSULIN mRNA ANALYSIS REPORT
+==================================
 
+Sequence ID: NM_000207.3
+Sequence Length: 465
+
+NUCLEOTIDE COMPOSITION
+----------------------
+A: 91
+T: 77
+G: 141
+C: 156
+
+GC Content: 63.87%
+
+GC content is calculated using unambiguous A, T, G and C bases.
